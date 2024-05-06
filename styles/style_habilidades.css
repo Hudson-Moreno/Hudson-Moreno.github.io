@@ -88,7 +88,7 @@ main{
 
 .linkzao{
     text-decoration: none;
-    color: rgb(49, 64, 18);
+    color: green;
 }
 
 @media only screen and (max-width: 1200px){
