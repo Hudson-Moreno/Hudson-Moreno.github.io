@@ -6,7 +6,7 @@
 }
 
 header{
-    background-image: url("//assets/HEADER.jpg");
+    background-image: url("assets/HEADER.jpg");
     padding: 2em 0 2em 5em;
     display: flex;
     gap: 5em;
@@ -23,7 +23,7 @@ body{
     font-family: "Besley", serif;
     font-size: 1.15em;
     color: white;
-    background-image: url("//assets/PROJETO\ TRUE\ 3.jpg");
+    background-image: url("assets/PROJETO\ TRUE\ 3.jpg");
     min-height: 100vh;
 }
 
