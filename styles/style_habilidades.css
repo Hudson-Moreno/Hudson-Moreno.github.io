@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     font-family: "Besley", serif;
     font-size: 1.15em;
-    color: white;
+    color: rgb(49, 26, 6);
     background-image: url("/assets/PROJETO\ TRUE\ 3.jpg");
     min-height: 100vh;
 }
@@ -33,6 +33,7 @@ footer{
     justify-content: center;
     padding: 1em 0 1em 0;
     margin-top: auto;
+    color: white;
 }
 
 main{
@@ -62,15 +63,18 @@ main{
 }
 
 #txt{
-    position: absolute;
-    padding: 3em 0 0 5em;
     width: 70vw;
     font-size: 3vh;
+    background-color: #BCB6A0;
+    padding: 3em 2em 1.5em 5em;
+    border-radius: 3em 0 3em 0;
+    box-shadow: 1.5em 1.5em rgb(49, 64, 18, .7);
 }
 
 .titulo{
     display: flex;
     position: relative;
+    color: white;
 }
 
 #titulo{
@@ -89,6 +93,9 @@ main{
 }
 
 @media only screen and (max-width: 1200px){
+    .coisas{
+        gap: 2em;
+    }
     body{
         font-size: 3vw;
     }
@@ -104,14 +111,18 @@ main{
     .behind_container{
         margin: 1vh 0 0 3vw;
         font-size: 3vw;
+        color: rgb(48, 35, 8);
     }
     #txt{
         width: 60vw;
         font-size: 3vw;
+        background-color: #BCB6A0;
+        position: sticky;
+        padding: 3em 2em 1.5em 5em;
+        border-radius: 3em 0 3em 0;
+        box-shadow: 2em 2em rgb(49, 64, 18, .7);
     }
-}
-    #txt{
-        width: 60vw;
-        font-size: 3vw;
+    #behind{
+        display: none;
     }
 }
