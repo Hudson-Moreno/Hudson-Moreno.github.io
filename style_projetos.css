@@ -6,7 +6,7 @@
 }
 
 header{
-    background-image: url(HEADER.jpg);
+    background-image: url("/assets/HEADER.jpg");
     padding: 2em 0 2em 5em;
     display: flex;
     gap: 5em;
